@@ -12,18 +12,15 @@ libraryDependencies += "scalajs-plus" %%% "core" % "replaceThisWithLatestVersion
 
 # Docs 
 
--[Macros](#macros)
-
--[Facades](#facades)
-
--[Polyfills](#polyfills)
-
--[Misc](#misc)
+- [Macros](#macros)
+- [Facades](#facades)
+- [Polyfills](#polyfills)
+- [Misc](#misc)
 
 
 # Macros
 
--[FunctionObjectMacro](#FunctionObjectMacro)
+- [FunctionObjectMacro](#FunctionObjectMacro)
 
 ### FunctionObjectMacro
 
@@ -70,7 +67,7 @@ libraryDependencies += "scalajs-plus" %%% "core" % "replaceThisWithLatestVersion
 
 # Facades 
 
--[Observable](#obserbale)
+- [Observable](#obserbale)
 
 
 ### Observable 
@@ -79,7 +76,7 @@ libraryDependencies += "scalajs-plus" %%% "core" % "replaceThisWithLatestVersion
 
 # Polyfills 
 
--[Object.assign](#object-assign)
+- [Object.assign](#object-assign)
 
 
 ### Object Assign
@@ -98,9 +95,9 @@ libraryDependencies += "scalajs-plus" %%% "core" % "replaceThisWithLatestVersion
 
 # Misc 
 
--[OptionalParam](#optionalparam)
--[ReadonlyArray](#readonlyarray)
--[UnionTypeToJSAnyImplicit](#uniontype-to-jsany-implicit)
+- [OptionalParam](#optionalparam)
+- [ReadonlyArray](#readonlyarray)
+- [UnionTypeToJSAnyImplicit](#uniontype-to-jsany-implicit)
 
 ### OptionalParam
 
