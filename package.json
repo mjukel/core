@@ -1,0 +1,17 @@
+{
+  "name": "scalajsplus--test",
+  "version": "0.1.0",
+  "description": "scalajsplus test",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "jest": "^22.0.4",
+    "zen-observable": "^0.7.1"
+  }
+}
