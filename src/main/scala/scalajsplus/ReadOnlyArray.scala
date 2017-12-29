@@ -9,7 +9,7 @@ import scala.scalajs.js.annotation.{JSBracketAccess, JSGlobal, JSName}
   */
 @js.native
 @JSGlobal
-class ReadonlyArray[A] extends js.Object with js.Iterable[A] {
+class ReadOnlyArray[A] extends js.Object with js.Iterable[A] {
 
   /** Length of the array. */
   def length: Int = js.native
@@ -35,8 +35,8 @@ class ReadonlyArray[A] extends js.Object with js.Iterable[A] {
 
 }
 
-object ReadonlyArray {
+object ReadOnlyArray {
   @inline
-  def apply[A](items: A*): ReadonlyArray[A] =
-    js.Array(items: _*).asInstanceOf[ReadonlyArray[A]]
+  def apply[A](items: A*): ReadOnlyArray[A] =
+    js.Array(items: _*).asInstanceOf[ReadOnlyArray[A]]
 }
