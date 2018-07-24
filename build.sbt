@@ -5,7 +5,7 @@ name := "core"
 enablePlugins(ScalaJSPlugin)
 
 
-val scala212 = "2.12.4"
+val scala212 = "2.12.6"
 
 scalaVersion := scala212
 
