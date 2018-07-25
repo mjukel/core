@@ -68,7 +68,7 @@ def runJest() = {
 
 
 libraryDependencies ++= Seq(
-  "org.scala-js" %%% "scalajs-dom" % "0.9.4" % Test,
+  "org.scala-js" %%% "scalajs-dom" % "0.9.7-KH" % Test,
   "scalajs-jest" %%% "core" % "2018.2.2-RC" % Test
 )
 
